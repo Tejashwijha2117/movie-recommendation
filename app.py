@@ -138,10 +138,7 @@ def poster_grid(cards, cols=6, key_prefix="grid"):
 
                 # UPDATED: use_container_width
                 if poster:
-                    st.image(
-                        poster,
-                        use_container_width=True
-                    )
+                    st.image(poster)
                 else:
                     st.write("🖼️ No poster")
 
