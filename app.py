@@ -522,7 +522,7 @@ elif st.session_state.view == "details":
             # UPDATED: use_container_width
             st.image(
                 data["poster_url"],
-                use_container_width=True
+                use_column_width=True
             )
 
         else:
